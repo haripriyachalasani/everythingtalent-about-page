@@ -31,7 +31,7 @@ export default function OurStory() {
           </div>
           <div className={styles.imageBlock}>
             <img
-              src={Story1}
+              src="https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Fstory_1.png&w=640&q=75"
               alt="Image representing journey"
               className={styles.image}
             />
@@ -41,7 +41,7 @@ export default function OurStory() {
         <section className={styles.section}>
           <div className={styles.imageBlock}>
             <img
-              src={Story2}
+              src="https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Fstory_2.png&w=640&q=75"
               alt="Team working together"
               className={styles.image}
             />
@@ -66,7 +66,7 @@ export default function OurStory() {
           </div>
           <div className={styles.imageBlock}>
             <img
-              src={Story3}
+              src="https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Fstory_3.png&w=640&q=75"
               alt="Image representing journey"
               className={styles.image}
             />
