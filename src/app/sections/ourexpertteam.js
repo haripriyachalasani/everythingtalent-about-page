@@ -3,34 +3,25 @@ import Image from 'next/image';
 import styles from './ourexpertteam.module.css';
 import IN1 from "../../../Public/Images/in1.webp"
 import IN2 from "../../../Public/Images/in2.webp"
-import INF1 from "../../../Public/Images/inf1.webp"
-import INF2 from "../../../Public/Images/inf2.webp"
-import INF4 from "../../../Public/Images/inf4.webp"
-import AM1 from "../../../Public/Images/am1.webp"
-import AM2 from "../../../Public/Images/am2.webp"
-import AM3 from "../../../Public/Images/am3.webp"
-import AMF1 from "../../../Public/Images/amf1.webp"
-import AMF2 from "../../../Public/Images/amf2.webp"
-
 
 export default function OurExpertsTeam() {
   const teamMembers = [
-    { id: 1, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75" },
-    { id: 2, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Finf1.jpg&w=96&q=75" },
-    { id: 3, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam1.jpg&w=96&q=75" },
-    { id: 4, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Finf2.jpg&w=96&q=75" },
-    { id: 5, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam2.jpg&w=96&q=75"},
-    { id: 6, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Famf1.jpg&w=96&q=75" },
-    { id: 7, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin2.jpg&w=96&q=75" },
-    { id: 8, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Famf2.jpg&w=96&q=75" },
-    { id: 9, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam3.jpg&w=96&q=75" },
-    { id: 10, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Finf4.jpg&w=96&q=75" },
-    { id: 11, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin3.jpg&w=96&q=75" },
-    { id: 12, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Finf5.jpg&w=96&q=75" },
-    { id: 13, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam4.jpg&w=96&q=75" },
-    { id: 14, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Famf3.jpg&w=96&q=75"},
-    { id: 15, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam5.jpg&w=96&q=75" },
-    { id: 16, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Famf4.jpg&w=96&q=75" },
+    { id: 1, image: {IN1}},
+    { id: 2, image: {IN2}},
+    { id: 3, image: {IN1}},
+    { id: 4, image: {IN2}},
+    { id: 5, image: {IN1}},
+    { id: 6, image: {IN2}},
+    { id: 7, image: {IN1}},
+    { id: 8, image: {IN2}},
+    { id: 9, image: {IN1}},
+    { id: 10, image: {IN2}},
+    { id: 11, image: {IN1}},
+    { id: 12, image: {IN2}},
+    { id: 13, image: {IN1}},
+    { id: 14, image: {IN2}},
+    { id: 15, image: {IN1}},
+    { id: 16, image: {IN2}},
 
   ];
 
