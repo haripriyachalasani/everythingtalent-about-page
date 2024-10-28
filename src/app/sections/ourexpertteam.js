@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './ourexpertteam.module.css';
-import IN1 from "../../../Public/Images/in1.webp"
-import IN2 from "../../../Public/Images/in2.webp"
+import IN1 from "../../../Public/in1.jpeg"
+import IN2 from "../../../Public/in2.jpeg"
 
 export default function OurExpertsTeam() {
   const teamMembers = [
