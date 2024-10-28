@@ -12,25 +12,25 @@ export default function OurJourney() {
     {
       date: "Aug 2021",
       title: "IDC Names Arctic Wolf a Leader",
-      image: {Journey1},
+      image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fhome%2Fai1.jpg&w=256&q=75",
       position: "left",
     },
     {
       date: "Feb 2022",
       title: "Arctic Wolf Incident Launch",
-      image: {Journey2},
+      image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fhome%2Ftools.jpg&w=256&q=75",
       position: "right",
     },
     {
       date: "Oct 2022",
       title: "Arctic Wolf Expands to ANZ",
-      image: {Journey3},
+      image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fhome%2Fai2.jpg&w=256&q=75",
       position: "left",
     },
     {
       date: "May 2023",
       title: "Arctic Wolf on CNBC Disruptor 50",
-      image: {Journey4},
+      image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fhome%2Farticle.jpg&w=256&q=75",
       position: "right",
     },
   ];
