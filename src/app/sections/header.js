@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./header.module.css";
 import Logo from "../../../Public/Images/logo.webp";
-import About1 from "../../../Public/Images/about1.webp";
-import About2 from "../../../Public/Images/about2.webp";
+import About1 from "../../../Public/Images/about1.jpeg";
+import About2 from "../../../Public/Images/about2.jpeg";
 
 
 export default function Home() {
