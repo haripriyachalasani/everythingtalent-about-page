@@ -1,16 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './ourexpertteam.module.css';
-// import IN1 from "../../../Public/Images/in1.webp"
-// import IN2 from "../../../Public/Images/in2.webp"
-// import INF1 from "../../../Public/Images/inf1.webp"
-// import INF2 from "../../../Public/Images/inf2.webp"
-// import INF4 from "../../../Public/Images/inf4.webp"
-// import AM1 from "../../../Public/Images/am1.webp"
-// import AM2 from "../../../Public/Images/am2.webp"
-// import AM3 from "../../../Public/Images/am3.webp"
-// import AMF1 from "../../../Public/Images/amf1.webp"
-// import AMF2 from "../../../Public/Images/amf2.webp"
+import IN1 from "../../../Public/Images/in1.webp"
+import IN2 from "../../../Public/Images/in2.webp"
+import INF1 from "../../../Public/Images/inf1.webp"
+import INF2 from "../../../Public/Images/inf2.webp"
+import INF4 from "../../../Public/Images/inf4.webp"
+import AM1 from "../../../Public/Images/am1.webp"
+import AM2 from "../../../Public/Images/am2.webp"
+import AM3 from "../../../Public/Images/am3.webp"
+import AMF1 from "../../../Public/Images/amf1.webp"
+import AMF2 from "../../../Public/Images/amf2.webp"
 
 
 export default function OurExpertsTeam() {
