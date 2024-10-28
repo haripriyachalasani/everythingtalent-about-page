@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./ourStory.module.css";
-import Story1 from "../../../Public/Images/story_1.webp";
-import Story2 from "../../../Public/Images/story_2.webp";
-import Story3 from "../../../Public/Images/story_3.webp";
+import Story1 from "../../../Public/story_1.jpeg";
+import Story2 from "../../../Public/story_2.jpeg";
+import Story3 from "../../../Public/story_3.jpeg";
 
 export default function OurStory() {
   return (
