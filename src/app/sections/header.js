@@ -4,7 +4,9 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./header.module.css";
-import Logo from "../../../Public/Images/logo.webp"
+import Logo from "../../../Public/Images/logo.webp";
+import About1 from "../../../Public/Images/about1.webp";
+import About2 from "../../../Public/Images/about2.webp";
 
 
 export default function Home() {
@@ -53,7 +55,7 @@ export default function Home() {
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/Images/about1.webp" // Ensure the image is in the public folder
+            src={About1}
             alt="Everything Talent simplifies hiring with a free ATS and AI-driven assessments."
             width={300}
             height={350}
@@ -62,7 +64,7 @@ export default function Home() {
             className={`${styles.image} rotate-45 w-48 h-48 border-[3px] dark:border-[#3577f39a] lg:w-80 lg:h-80 object-cover`}
           />
           <Image
-            src="/Images/about2.webp" // Ensure the image is in the public folder
+            src={About2}
             alt="Everything Talent simplifies hiring with a free ATS and AI-driven assessments."
             width={300}
             height={350}
