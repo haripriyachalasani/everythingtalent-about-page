@@ -1,0 +1,124 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .logoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .logo {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .logoFigure {
+    width: 20px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+  .logoFigure:nth-child(1) { background-color: #ff00ff; }
+  .logoFigure:nth-child(2) { background-color: #00ffff; }
+  .logoFigure:nth-child(3) { background-color: #ffff00; }
+  
+  .companyName {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .linksSection {
+    display: flex;
+    gap: 15rem;
+  }
+  
+  .linkColumn h3 {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .linkColumn ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .linkColumn li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .linkColumn a {
+    color: #999;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .linkColumn a:hover {
+    color: #fff;
+  }
+  
+  .cityscape {
+    position: relative;
+    height: 200px;
+    margin-top: 2rem;
+  }
+  
+  .bottomBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px solid #333;
+  }
+  
+  .bottomBar p {
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      margin-left: 25px;
+    }
+  
+    .linksSection {
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+  
+    .cityscape {
+      height: 150px;
+    }
+  }

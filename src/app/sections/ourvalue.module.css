@@ -1,0 +1,138 @@
+.container {
+    background-color: #000;
+    color: #fff;
+    /* padding: 2rem; */
+    /* text-align: center; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70rem;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .valuesContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-areas: 
+      ". value1 ."
+      "value2 . value6"
+      "value3 centerImage value5"
+      ". value4 .";
+    gap: 1.5rem;
+  }
+  
+  .valueItem {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .value1 { grid-area: value1; }
+  .value2 { grid-area: value2; }
+  .value3 { grid-area: value3; }
+  .value4 { grid-area: value4; }
+  .value5 { grid-area: value5; }
+  .value6 { grid-area: value6; }
+  
+  .centerImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 700px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+    grid-area: centerImage;
+  }
+  
+  @media (max-width: 768px) {
+    .valuesContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .valueItem {
+      position: static;
+      margin-bottom: 1.5rem;
+      width: 100%;
+      /* overflow: hidden; */
+    }
+  
+    .centerImage {
+      margin-top: 65rem;
+      max-width: 80%;
+    }
+    .container{
+      height: 105rem;
+    }
+  }
+  
+  @media (max-width: 570px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 0.7rem;
+    }
+  
+    .valueItem {
+      font-size: 0.9rem;
+      padding: 0.7rem;
+    }
+  
+    .icon {
+      font-size: 1.8rem;
+    }
+  
+    .centerImage {
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 480px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 0.9rem;
+    }
+  
+    .valueItem {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+  
+    .icon {
+      font-size: 1.8rem;
+    }
+  
+    .centerImage {
+      max-width: 100%;
+    }
+  }
