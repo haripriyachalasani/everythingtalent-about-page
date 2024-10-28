@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image"; 
 import Link from "next/link"; 
 import styles from "./ourvalue.module.css"; 
-import Value1 from "../../../Public/Images/values-1.webp"
+import Value1 from "../../../Public/values-1.jpeg"
 
 export default function OurValues() {
     const values = [
