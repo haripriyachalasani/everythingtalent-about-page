@@ -2,10 +2,10 @@
 import React from "react"; 
 import Image from "next/image"; 
 import styles from "./ourjourney.module.css"; 
-import Journey1 from "../../../Public/Images/journey1.webp";
-import Journey2 from "../../../Public/Images/journey2.webp";
-import Journey3 from "../../../Public/Images/journey3.webp";
-import Journey4 from "../../../Public/Images/journey4.webp";
+import Journey1 from "../../../Public/journey1.jpeg";
+import Journey2 from "../../../Public/journey2.jpeg";
+import Journey3 from "../../../Public/journey3.jpeg";
+import Journey4 from "../../../Public/journey4.jpeg";
 
 export default function OurJourney() {
   const journeyEvents = [
