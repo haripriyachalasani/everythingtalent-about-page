@@ -6,22 +6,22 @@ import IN2 from "../../../Public/Images/in2.webp"
 
 export default function OurExpertsTeam() {
   const teamMembers = [
-    { id: 1, image: {IN1}},
-    { id: 2, image: {IN2}},
-    { id: 3, image: {IN1}},
-    { id: 4, image: {IN2}},
-    { id: 5, image: {IN1}},
-    { id: 6, image: {IN2}},
-    { id: 7, image: {IN1}},
-    { id: 8, image: {IN2}},
-    { id: 9, image: {IN1}},
-    { id: 10, image: {IN2}},
-    { id: 11, image: {IN1}},
-    { id: 12, image: {IN2}},
-    { id: 13, image: {IN1}},
-    { id: 14, image: {IN2}},
-    { id: 15, image: {IN1}},
-    { id: 16, image: {IN2}},
+    { id: 1, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 2, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 3, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 4, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 5, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 6, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 7, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 8, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 9, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 10, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 11, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 12, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 13, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 14, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 15, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 16, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
 
   ];
 
