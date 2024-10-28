@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./footer.module.css";
 import Logo from "../../../Public/Images/logo.webp";
-import CityScape from "../../../Public/Images/bottom_san_fransisco_skyline.webp";
+import CityScape from "../../../Public/Images/bottom_san_fransisco_skyline.jpeg";
 
 
 
