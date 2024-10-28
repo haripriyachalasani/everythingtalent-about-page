@@ -1,25 +1,28 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from './OurExpertsTeam.module.css';
+import styles from './ourexpertteam.module.css';
+import IN1 from "../../../Public/Images/in1.webp"
+import IN2 from "../../../Public/Images/in2.webp"
 
 export default function OurExpertsTeam() {
   const teamMembers = [
-    { id: 1, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75" },
-    { id: 2, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Finf1.jpg&w=96&q=75" },
-    { id: 3, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam1.jpg&w=96&q=75" },
-    { id: 4, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Finf2.jpg&w=96&q=75" },
-    { id: 5, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam2.jpg&w=96&q=75"},
-    { id: 6, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Famf1.jpg&w=96&q=75" },
-    { id: 7, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin2.jpg&w=96&q=75" },
-    { id: 8, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Famf2.jpg&w=96&q=75" },
-    { id: 9, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam3.jpg&w=96&q=75" },
-    { id: 10, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Finf4.jpg&w=96&q=75" },
-    { id: 11, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin3.jpg&w=96&q=75" },
-    { id: 12, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Finf5.jpg&w=96&q=75" },
-    { id: 13, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam4.jpg&w=96&q=75" },
-    { id: 14, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Famf3.jpg&w=96&q=75"},
-    { id: 15, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fam5.jpg&w=96&q=75" },
-    { id: 16, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Famf4.jpg&w=96&q=75" },
+    { id: 1, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 2, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 3, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 4, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 5, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 6, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 7, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 8, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 9, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 10, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 11, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 12, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 13, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 14, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 15, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+    { id: 16, image: "https://everythingtalent.ai/_next/image?url=%2Fassets%2Fabout-us%2Four-team%2Fin1.jpg&w=96&q=75"},
+
   ];
 
   return (
@@ -30,30 +33,17 @@ export default function OurExpertsTeam() {
       </p>
 
       <div className={styles.teamCircle}>
-        {teamMembers.map((member, index) => {
-          const angle = (index / teamMembers.length) * 2 * Math.PI;
-          const x = 200 + 180 * Math.cos(angle);
-          const y = 200 + 180 * Math.sin(angle);
-          return (
-            <div
-              key={member.id}
-              className={styles.teamMember}
-              style={{
-                left: `${x}px`,
-                top: `${y}px`,
-                transform: 'translate(-50%, -50%)',
-              }}
-            >
-              <Image
-                src={member.image}
-                alt={`Team member ${member.id}`}
-                width={60}
-                height={60}
-                className={styles.memberImage}
-              />
-            </div>
-          );
-        })}
+        {teamMembers.map((member) => (
+          <div key={member.id} className={`${styles.teamMember} ${styles[`member${member.id}`]}`}>
+            <Image
+              src={member.image}
+              alt={`Team member ${member.id}`}
+              width={60}
+              height={60}
+              className={styles.memberImage}
+            />
+          </div>
+        ))}
       </div>
 
       <div className={styles.cultureSection}>
